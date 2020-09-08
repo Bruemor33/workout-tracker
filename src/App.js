@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.scss';
-import Profile from './profile/profile.component'
+import Navigation from './navigation/navigation.component';
+import Home from './home/home.component';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Profile></Profile>
+        <Home></Home>
+        <Navigation></Navigation>
       </header>
     </div>
   );
