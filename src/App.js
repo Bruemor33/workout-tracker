@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.scss';
 import Navigation from './shared/layouts/navigation/navigation.component';
-import Home from './home/home.component';
+import Header from './shared/layouts/header/header.component';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Home></Home>
-        <Navigation></Navigation>
-      </header>
+      <Header></Header>
+      <Navigation></Navigation>
     </div>
   );
 }

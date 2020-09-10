@@ -4,10 +4,10 @@ import './header.styles.scss';
 function Header () {
     return (
       <div id="header">
-        <div className="user-information">
-          <div className="user-profile-image"></div>
-          <p>Andrew Rymer</p>
-          <p>Greenville, SC</p>
+        <p className="page-title">Profile</p>
+        <div className="page-action-icons">
+          <span>Thing1</span>
+          <span>Thing2</span>
         </div>
       </div>
     );
