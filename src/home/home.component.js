@@ -1,11 +1,11 @@
 import React from 'react';
 import './home.styles.scss';
-import Profile from '../profile/profile.component';
+import Header from '../shared/layouts/header/header.component';
 
 function Home() {
     return (
         <div id="home">
-            <Profile></Profile>
+            <Header></Header>
         </div>
     )
 }
